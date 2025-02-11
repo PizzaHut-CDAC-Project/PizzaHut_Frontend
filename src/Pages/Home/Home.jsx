@@ -5,6 +5,8 @@ import logo from "../../images/colorLogo.png";
 import deal1 from "../../images/deal1.jpg";
 import deal2 from "../../images/deal2.jpg";
 import "./Home.css";
+import menu from "../../images/menu.png"
+
 
 export default function Home() {
   const [UpModal, setsignUpModal] = useState(false);
@@ -38,21 +40,9 @@ export default function Home() {
                 <a className="navbar-brand">
                   <img src={logo} alt="" id="headerlogoProfile" />
                 </a>
-                <button
-                  className="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                  style={{ backgroundColor: "white" }}
-                >
-                  <span
-                    className="navbar-toggler-icon"
-                    style={{ backgroundColor: "grey" }}
-                  ></span>
-                </button>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style={{ backgroundColor: "white" }}>
+                            <span className="navbar-toggler-icon" style={{ backgroundColor: "white" }}><img src={menu} width="30px" /></span>
+                        </button>
                 <div
                   className="collapse navbar-collapse"
                   id="navbarSupportedContent"
