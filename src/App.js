@@ -28,7 +28,7 @@ import VegPizza from "./Pages/Veg-pizzas/VegPizza";
 
 function App() {
   useEffect(() => {
-    document.title = "pizzaStory"; // set the new tab name here
+    document.title = "PizzaHut"; // set the new tab name here
   }, []);
   return (
     <div className="root">
