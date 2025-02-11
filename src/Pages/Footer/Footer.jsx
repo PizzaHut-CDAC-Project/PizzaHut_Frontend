@@ -96,8 +96,8 @@ export default function Footer() {
       </div>
 
       <div className="info-section">
-        <p> {/* Use <p> tags for paragraphs */}
-          Order a delicious pizza on the go, anywhere, anytime. pizzaStory is
+        <p> 
+          Order a delicious pizza on the go, anywhere, anytime. pizzaHut is
           happy to assist you with your home delivery. Every time you order, you
           get a hot and fresh pizza delivered at your doorstep in less than
           thirty minutes. *T&C Apply.

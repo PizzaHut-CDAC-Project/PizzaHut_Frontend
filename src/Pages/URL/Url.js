@@ -1,2 +1,2 @@
-const URL =`http://3.108.53.224:7070/`
+const URL =`http://13.203.194.157:7070/`
 export default URL

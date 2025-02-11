@@ -34,7 +34,7 @@ export default function AboutUs() {
               <h5>WHAT WE’RE ABOUT</h5>
               <p>
                 At pizzaStory, we don’t just make pizza. We make people happy.
-                pizzaStory was built on the belief that pizza night should be
+                pizzahut was built on the belief that pizza night should be
                 special, and we carry that belief into everything we do. We
                 understand how to best serve our customers through tried and
                 true service principles: We create food we’re proud to serve and
@@ -42,17 +42,7 @@ export default function AboutUs() {
               </p>
             </div>
             <hr />
-            {/* <div>
-              <h5>WHERE WE COME FROM</h5>
-              <p>
-                In 1958, two brothers borrowed $600 from their mom to open a
-                pizza place in Wichita, Kansas. They named it Pizza Hut, because
-                their sign only had room for eight letters. How profound! Soon,
-                the restaurant grew. Why? The pizza was awesome. The service
-                felt like home. And the customers were treated like family. And
-                we’ve been delivering that same food and service ever since.
-              </p>
-            </div> */}
+           
           </div>
           <br />
         </div>

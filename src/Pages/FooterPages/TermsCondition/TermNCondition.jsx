@@ -39,9 +39,7 @@ export default function TermNCondition() {
                             <li>
                                 In case of non-availability of ordered product at the mapped restaurant, the order would not be executed. Same would be informed by the restaurant near you
                             </li>
-                            <li>
-                                Drinks (350ml) shall be available at the discounted rate of Rs.40 solely with the Pizza Mania range
-                            </li>
+                           
                             <li>
                                 The term “Drink (350ml)” shall denote 350ml of drinks dispensed through PMX machine
                             </li>
