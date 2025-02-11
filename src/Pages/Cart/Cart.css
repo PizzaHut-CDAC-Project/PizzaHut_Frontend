@@ -1,0 +1,12 @@
+.payBtn{
+    width: max-content;
+    border-radius: 100px;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(61, 147, 0);
+}
+
+.amountInfo{
+    /* margin-left: 62%; */
+    font-weight: 700;
+}

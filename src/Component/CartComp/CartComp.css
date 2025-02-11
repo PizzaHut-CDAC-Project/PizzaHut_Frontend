@@ -1,0 +1,27 @@
+.tableContainer{
+    margin-left: 5%;
+    margin-right: 10%;
+    outline-style: groove;
+    outline-width: 1px;
+    border-radius: 10px;
+} 
+
+.cartInfo{
+    margin-left: 5%;
+}
+#cartImg{
+    max-width: 100%;
+    border-radius: 6px;
+    height: auto;
+}
+
+.removebtn{
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 100px;
+    padding: 5px;
+    color: aliceblue;
+    background-color: rgb(252, 68, 68);
+
+}
+

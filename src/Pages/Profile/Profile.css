@@ -1,0 +1,44 @@
+.logoProfile {
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.profileName {
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.personalInfo {
+    width: 100%;
+    height: 40px;
+    margin-left: 5%;
+}
+
+.editUser {
+    border-radius: 6px;
+    width: 100px;
+    background-color: antiquewhite;
+    background-color: rgb(245, 245, 255);
+    font-weight: 600;
+}
+
+.addAddress {
+    border-radius: 6px;
+    width: 120px;
+    background-color: antiquewhite;
+    background-color: rgb(245, 245, 255);
+    font-weight: 600;
+    margin-right: 7%;
+}
+
+
+#prtable {
+    margin-left: 15%;
+
+    @media all and (max-width: 1000px) and (min-width: 700px) {
+        #prtable {
+            margin-left: 20px;
+        }
+    }
+}

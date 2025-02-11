@@ -1,0 +1,27 @@
+.UpBtn {
+    border-radius: 100px;
+    width: 80px;
+    height: 35px;
+    font-size: larger;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.form-input{
+    border-radius: 100px;
+    margin-top: 3px;
+}
+
+.form-div{
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-div{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+  }

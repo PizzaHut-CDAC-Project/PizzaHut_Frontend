@@ -1,0 +1,37 @@
+.feedbackContainer {
+    width: 70%;
+    margin-left: 15%;
+    outline-style: groove;
+    border-radius: 6px;
+    outline-width: 1px;
+    background-color: rgb(255, 255, 255);
+}
+
+.feedImg{
+    background-color: rgb(255, 255, 255);
+    min-height: 500px;
+}
+
+.feedBtn {
+    border-radius: 100px;
+    height: 35px;
+    font-size: larger;
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+}
+
+.feedBack {
+    border-radius: 6px;
+    height: 35px;
+    width: 20%;
+    background-color: rgb(138, 163, 184);
+}
+
+.feedForm {
+    padding: 1.2rem;
+}
+
+#feedbackHLogo{
+    margin-left: 3%;
+    height: 50px;
+}

@@ -1,0 +1,21 @@
+.orderdetailContainer{
+    margin-left: 2%;
+}
+
+.addresscontainer{
+    padding: 0.5rem;
+    outline-style: groove;
+    outline-width: 1px;
+    border-radius: 6px;
+    width: 100%;
+    background-color: rgb(247, 247, 117);
+}
+
+.orderContainer{
+    margin-left: 5%;
+    margin-right: 10%;
+    /* outline-style: groove; */
+    /* outline-width: 1px; */
+    /* background-color: blanchedalmond; */
+    border-radius: 10px;
+}

@@ -1,0 +1,59 @@
+.cartbtn {
+    margin-right: 30px;
+    margin-left: 20px;
+    float: right;
+    z-index: 99;
+    position: relative;
+    border-radius: 100px;
+    height: 40px;
+    width: fit-content;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(251, 235, 170); */
+    color: black;
+    font-size: larger;
+}
+
+.dropBtnd {
+    /* margin-right: 30px;
+    margin-left: 80%;
+    margin-top: 3%;
+    border-radius: 10px;
+    height: 40px;
+    width: fit-content; */
+    border-radius: 100px;
+    background-color: rgb(242, 242, 242);
+    color: black;
+}
+
+#headerlogoProfile {
+    height: 50px;
+    /* margin-top: 1%; */
+    /* margin-left: 50px; */
+    /* margin-bottom: 10px; */
+}
+
+
+.sticky-top {
+    position: fixed;
+    top: 0;
+    width: 102%;
+}
+
+#headerBtn{
+    margin-top: 0.5%;
+    /* margin-left: 2%; */
+    border-radius: 100px;
+    text-decoration: none !important;
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    cursor: pointer;
+}
+
+.headerbtn:focus {
+    box-shadow: none;
+}
