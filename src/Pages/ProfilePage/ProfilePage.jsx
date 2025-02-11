@@ -42,7 +42,6 @@ export default function ProfilePage() {
                 <div className='container' style={{ backgroundColor: "white", minHeight: "500px" }}>
                     <br />
                     <center><h3>Recommended Delicious Pizza🍕</h3></center> <hr />
-                   <center> <h3>No Pizzas Today</h3></center>
                     <div className='row' style={{ padding: "2rem" }}>
                         {item.map((peritem) => {
                             return <Item itemComp={peritem} />
