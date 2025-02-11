@@ -6,6 +6,7 @@ import './Feedback.css'
 import { toast } from 'react-toastify'
 import URL from '../URL/Url'
 import axios from 'axios'
+import menu from "../../images/menu.png"
 
 export default function Feedback() {
     const navigate = useNavigate()
@@ -57,8 +58,8 @@ export default function Feedback() {
                     <div className="container-fluid">
                         <a className="navbar-brand"><img src={logo} alt="" id='headerlogoProfile' onClick={()=>(navigate('/'))} style={{cursor:"pointer"}}/></a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style={{ backgroundColor: "white" }}>
-                            <span className="navbar-toggler-icon" style={{ backgroundColor: "black" }}></span>
-                        </button>
+                                                    <span className="navbar-toggler-icon" style={{ backgroundColor: "white" }}><img src={menu} width="30px" /></span>
+                                                </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent" >
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
